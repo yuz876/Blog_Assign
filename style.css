@@ -19,11 +19,36 @@ body {
     opacity: 1;
 }
 
+.subs {
+    padding:10px;
+}
+
+header {
+    text-decoration: underline;
+    color:#494040;
+    font-size: 10px;
+    padding: 10px;
+}
+
+img {
+
+    height:1.5rem;
+    width:1.5rem;
+    display: block;
+}
+
+
 .content_table {
     table-layout: fixed;
     width: 100%;    
     border-spacing: 20px 20px;
     border-collapse: separate;
+}
+
+
+.subs {
+    text-align: left;
+    margin:auto;
 }
 
 .content_blocks {
@@ -99,5 +124,4 @@ footer {
     color: #494040; 
     clear:both;
     opacity: 0.6;
-    
 }
