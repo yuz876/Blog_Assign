@@ -7,6 +7,7 @@ body {
 }
 
 .title {
+
     font-family: Times, serif;
     font-weight: bold;
     text-decoration: underline;
@@ -19,9 +20,40 @@ body {
     opacity: 1;
 }
 
-.subs {
-    padding:10px;
+.titlesubs {
+    width: 80px;
+    font-size: small;
+    text-decoration: underline;
+    color:gray;
+    padding-left: 20px;
 }
+
+.subs {
+    width: 100%;
+}
+
+.blogtitle {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+.titleblog {
+    width: 100%;
+    font-family: Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.titleimg {
+    width: 80px;
+    padding-right: 20px;
+}
+
 
 header {
     text-decoration: underline;
@@ -32,11 +64,14 @@ header {
 
 img {
 
-    height:1.5rem;
-    width:1.5rem;
+    height:1rem;
+    width:1rem;
     display: block;
 }
 
+.title_table {
+    width: 100%;
+}
 
 .content_table {
     table-layout: fixed;
@@ -45,29 +80,23 @@ img {
     border-collapse: separate;
 }
 
-
-.subs {
-    text-align: left;
-    margin:auto;
-}
-
 .content_blocks {
     margin:auto;
     padding: 5%;
 }
 
-td {
+.content_table td {
     border-color: rgb(236, 231, 231);
     border-style:solid;
     border-width: 0.3rem;
     margin-right:50px;
 }
 
-.content tr td:empty {
+.content_table tr td:empty {
     width: 50px;
   }
     
-.content tr td {
+.content_table tr td {
     padding-top: 20px;
     padding-bottom: 10px;
   }
