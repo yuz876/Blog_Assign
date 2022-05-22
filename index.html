@@ -2,37 +2,30 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-    
+<!--     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Blog Title</title>
 
 </head>
 
 <body>
-    <table class="title-table">
-        <tr>
-            <th colspan="3"></th>
-        </tr>
-        <tr>
-            <td class="titlesubs">
-                <div class = "subs" >Subscribe</div>
-            </td>
-            <td class="titleblog">
-                <div class="blogtitle">Blog Title</div>
-            </td>
-            <td class="titleimg">
-                <div class="image"><img src="image/search_icon.png" alt=""></div>
-            </td>
-        </tr>
-    </table>
+    
+    <header>
+        <div class="title_row">
+            <div class="titlesubs">Subscribe</div>
+            <div class="titleblog">Blog Title</div>
+            <div class="titleimg"><img class="searchmarkimage" src="image/search_icon.png" alt=""></div>
+        </div>
+    </header>
 
+    <main>
     <table class="content_table">
-        <form action="" class="content_blocks">
+        <form action="" method="POST">
             
             <tr>
-                <td colspan="1" >
+                <td>
                     <div class="world">
                         World
                     </div>
@@ -48,7 +41,7 @@
                         Continue reading
                     </div>
                 </td>
-                <td colspan="1">
+                <td>
                     <div class="design">
                         Design
                     </div>
@@ -67,7 +60,7 @@
             </tr>
 
             <tr>
-                <td colspan="1">
+                <td>
                     <div class="world">
                         World
                     </div>
@@ -83,7 +76,7 @@
                         Continue reading
                     </div>
                 </td>
-                <td colspan="1">
+                <td>
                     <div  class="design">
                         Design
                     </div>
@@ -103,7 +96,7 @@
             
 
             <tr>
-                <td colspan="1">
+                <td>
                     <div class="world">
                         World
                     </div>
@@ -119,7 +112,7 @@
                         Continue reading
                     </div>
                 </td>
-                <td colspan="1">
+                <td>
                     <div  class="design">
                         Design
                     </div>
@@ -139,11 +132,12 @@
 
         </form>
     </table>
+    </main>
 
     <footer>
         <p>Blog template build for <a href=>Bootstrap</a></p>
         <p> <a href=>See Design Syetem</a></p>
-      </footer> 
+    </footer> 
 
 
 
